@@ -1,0 +1,65 @@
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 15px; }
+  h1 {
+    font-size: 20px;
+    margin: 10px 0; }
+  h2 {
+    font-size: 25px;
+    margin-top: 41px; }
+  h3 {
+    font-size: 25px; }
+  .container {
+    width: 90%; }
+  .wrapper .container header .logo a {
+    font-size: 25px; }
+    .wrapper .container header .logo a span {
+      font-size: 33px; }
+  .products .container .product_blocks {
+    margin-top: 45px; }
+  .trending .container .owl-carousel {
+    margin-top: 50px; }
+    .trending .container .owl-carousel .item .trending_photo {
+      width: 100%; }
+    .trending .container .owl-carousel .item .trending_information p {
+      margin-top: 15px; }
+    .trending .container .owl-carousel .item .trending_information .line {
+      margin-top: 15px; }
+    .trending .container .owl-carousel .item .trending_information .buttons_size {
+      margin-top: 20px; }
+  .blog .container {
+    width: 80%; }
+    .blog .container .owl-carousel {
+      margin-top: 45px; }
+      .blog .container .owl-carousel .owl-nav .owl-prev {
+        left: -10%; }
+      .blog .container .owl-carousel .owl-nav .owl-next {
+        right: -10%; }
+      .blog .container .owl-carousel .item .blog_information {
+        height: auto; }
+        .blog .container .owl-carousel .item .blog_information h4 {
+          margin: 10px 0; }
+        .blog .container .owl-carousel .item .blog_information .text {
+          margin: 15px 0; }
+  footer .container p {
+    font-size: 12px; }
+  footer .container .footer_form .footer_email {
+    /* Firefox 19+ */
+    /* Firefox 18- */ }
+    footer .container .footer_form .footer_email input {
+      width: calc(100% - 40px);
+      padding-left: 40px;
+      font-size: 12px; }
+    footer .container .footer_form .footer_email ::-webkit-input-placeholder {
+      font-size: 11px; }
+    footer .container .footer_form .footer_email ::-moz-placeholder {
+      font-size: 11px; }
+    footer .container .footer_form .footer_email :-moz-placeholder {
+      font-size: 11px; }
+    footer .container .footer_form .footer_email :-ms-input-placeholder {
+      font-size: 11px; }
+    footer .container .footer_form .footer_email #before[required] + label:before {
+      left: 15px; }
+  footer .container .footer_form .footer_button a {
+    width: 100px;
+    font-size: 13px; } }

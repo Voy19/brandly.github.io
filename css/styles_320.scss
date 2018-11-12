@@ -1,0 +1,198 @@
+@media only screen and (max-width: 320px) {
+	h1 {
+		font-size: 17px;
+	}
+
+	h2 {
+		font-size: 17px;
+
+		&:before,
+		&:after {
+			height: 2px;
+			width: 70px;
+		}
+
+		&:before {
+			top: -10px;
+		}
+	
+		&:after {
+			bottom: -10px;
+		}
+	}
+
+	.buttons_other {
+
+		a {
+			width: 102px;
+			height: 30px;
+		}
+	}
+
+	.wrapper {
+
+		.container {
+
+			header {
+
+				.logo {
+
+					a {
+						font-size: 16px;
+	
+						span {
+							font-size: 28px;
+						}
+					}
+				}
+
+			}
+		}
+
+		.owl-carousel {
+
+			.item {
+
+				.wrapper_information {
+
+					.spacing {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	.products {
+
+		.container {
+
+			.product_blocks {
+
+				.product_block {
+
+					a {
+
+						.block_border {
+	
+							p {
+								font-size: 10px;
+							}
+						}
+
+					}
+
+				}
+
+				.wrap {
+
+					.product_block {
+
+						.block_border {
+
+							p {
+								font-size: 10px;
+								line-height: 15px;
+
+								&:before {
+									top: -5px;
+								}
+
+								&:after {
+									bottom: -5px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.trending {
+
+		.container {
+
+			.owl-carousel {
+
+				.item {
+
+					.trending_information {
+
+						.buttons_size {
+
+							a {
+								width: 40px;
+								height: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.blog {
+
+		.container {
+
+			.owl-carousel {
+
+				.owl-nav {
+
+					.owl-prev {
+						top: 25%;
+						left: -30px;
+					}
+
+					.owl-next {
+						top: 25%;
+						right: -30px;
+					}
+				}
+
+				.item {
+
+					.blog_photo {
+						height: 200px;
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+
+		.container {
+
+			.footer_form {
+				margin-top: 10px;
+				flex-wrap: wrap;
+
+				.footer_email {
+					width: calc(100% - 2px);
+					height: 30px;
+
+					#before[required]+label:before {
+						content: url("../images/email.png");
+						position: absolute;
+						top: -31px;
+						left: 13px;
+						color: rgb(238, 238, 238);
+					}
+				}
+
+				.footer_button {
+					margin-top: 10px;
+					width: 100%;
+					height: 30px;
+
+					a {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+}

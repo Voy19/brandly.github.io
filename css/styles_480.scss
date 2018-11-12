@@ -1,0 +1,175 @@
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 15px;
+	}
+
+	h1 {
+		font-size: 20px;
+		margin: 10px 0;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin-top: 41px;
+	}
+
+	h3 {
+		font-size: 25px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.wrapper {
+
+		.container {
+
+			header {
+
+				.logo {
+
+					a {
+						font-size: 25px;
+
+						span {
+							font-size: 33px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.products {
+
+		.container {
+
+			.product_blocks {
+				margin-top: 45px;
+			}
+		}
+	}
+
+	.trending {
+
+		.container {
+
+			.owl-carousel {
+				margin-top: 50px;
+
+				.item {
+
+					.trending_photo {
+						width: 100%;
+					}
+
+					.trending_information {
+
+						p {
+							margin-top: 15px;
+						}
+
+						.line {
+							margin-top: 15px;
+						}
+
+						.buttons_size {
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.blog {
+
+		.container {
+			width: 80%;
+
+			.owl-carousel {
+				margin-top: 45px;
+
+				.owl-nav {
+
+					.owl-prev {
+						left: -10%;
+					}
+
+					.owl-next {
+						right: -10%;
+					}
+				}
+
+				.item {
+
+					.blog_information {
+						height: auto;
+
+						h4 {
+							margin: 10px 0;
+						}
+
+						.text {
+							margin: 15px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+
+		.container {
+
+			p {
+				font-size: 12px;
+			}
+
+			.footer_form {
+
+				.footer_email {
+
+					input {
+						width: calc(100% - 40px);
+						padding-left: 40px;
+						font-size: 12px;
+					}
+
+					::-webkit-input-placeholder {
+						font-size: 11px;
+					}
+	
+					::-moz-placeholder {
+						font-size: 11px;
+					}
+	
+					/* Firefox 19+ */
+					:-moz-placeholder {
+						font-size: 11px;
+					}
+	
+					/* Firefox 18- */
+					:-ms-input-placeholder {
+						font-size: 11px;
+					}
+
+					#before[required]+label:before {
+						left: 15px;
+					}
+				}
+
+				.footer_button {
+		
+					a {
+						width: 100px;
+						font-size: 13px;
+					}
+				}
+			}
+
+		}
+	}
+}

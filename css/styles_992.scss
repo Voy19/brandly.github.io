@@ -1,0 +1,201 @@
+@media only screen and (max-width: 992px) {
+	h1 {
+		font-size: 29px;
+	}
+
+	h2 {
+		font-size: 30px;
+		margin-top: 61px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.buttons_other {
+		margin-top: 20px;
+
+		a {
+			margin-left: 20px;
+			width: 142px;
+			height: 41px;
+			font-size: 14px;
+		}
+	}
+
+	.wrapper {
+
+		.container {
+
+			header {
+
+				.logo {
+
+					a {
+						font-size: 30px;
+
+						span {
+							font-size: 40px;
+						}
+					}
+				}
+
+				.menu {
+
+					ul {
+
+						li {
+
+							a {
+								margin: 0 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.owl-carousel {
+
+			.item {
+
+				.wrapper_information {
+					width: 90%;
+
+					p {
+						font-size: 23px;
+					}
+
+					.wrapper_button {
+						width: 150px;
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+	}
+
+	.products {
+
+		.container {
+
+			.product_blocks {
+
+				.product_block {
+
+					a {
+
+						.block_border {
+
+							p {
+								font-size: 25px;
+							}
+						}
+					}
+				}
+
+				.wrap {
+
+					.product_block {
+
+						.block_border {
+
+							p {
+								font-size: 25px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.trending {
+
+		.container {
+
+			.owl-carousel {
+
+				.item {
+
+					.trending_information {
+
+						.lato {
+							font-size: 16px;
+						}
+
+						.buttons_size {
+							margin-top: 60px;
+
+							a {
+								margin-left: 20px;
+								width: 60px;
+								height: 41px;
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.blog {
+
+		.container {
+
+			.owl-carousel {
+
+				.owl-nav {
+
+					.owl-prev {
+						left: -40px;
+					}
+
+					.owl-next {
+						right: -40px;
+					}
+				}
+
+				.item {
+
+					.blog_information {
+						height: 350px;
+					}
+	
+					.blog_information {
+	
+						h3 {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+
+		}
+	}
+
+	footer {
+
+		.container {
+
+			.footer_form {
+
+				.footer_email {
+					width: calc(49% + 142px + 25px);
+				}
+
+				.footer_button {
+
+					a {
+						width: 170px;
+					}
+				}
+			}
+		}
+	}
+}

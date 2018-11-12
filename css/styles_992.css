@@ -1,0 +1,55 @@
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 29px; }
+  h2 {
+    font-size: 30px;
+    margin-top: 61px; }
+  h3 {
+    font-size: 20px; }
+  .container {
+    width: 90%; }
+  .buttons_other {
+    margin-top: 20px; }
+    .buttons_other a {
+      margin-left: 20px;
+      width: 142px;
+      height: 41px;
+      font-size: 14px; }
+  .wrapper .container header .logo a {
+    font-size: 30px; }
+    .wrapper .container header .logo a span {
+      font-size: 40px; }
+  .wrapper .container header .menu ul li a {
+    margin: 0 15px; }
+  .wrapper .owl-carousel .item .wrapper_information {
+    width: 90%; }
+    .wrapper .owl-carousel .item .wrapper_information p {
+      font-size: 23px; }
+    .wrapper .owl-carousel .item .wrapper_information .wrapper_button {
+      width: 150px;
+      margin-top: 30px; }
+  .products .container .product_blocks .product_block a .block_border p {
+    font-size: 25px; }
+  .products .container .product_blocks .wrap .product_block .block_border p {
+    font-size: 25px; }
+  .trending .container .owl-carousel .item .trending_information .lato {
+    font-size: 16px; }
+  .trending .container .owl-carousel .item .trending_information .buttons_size {
+    margin-top: 60px; }
+    .trending .container .owl-carousel .item .trending_information .buttons_size a {
+      margin-left: 20px;
+      width: 60px;
+      height: 41px;
+      font-size: 14px; }
+  .blog .container .owl-carousel .owl-nav .owl-prev {
+    left: -40px; }
+  .blog .container .owl-carousel .owl-nav .owl-next {
+    right: -40px; }
+  .blog .container .owl-carousel .item .blog_information {
+    height: 350px; }
+  .blog .container .owl-carousel .item .blog_information h3 {
+    font-size: 20px; }
+  footer .container .footer_form .footer_email {
+    width: calc(49% + 142px + 25px); }
+  footer .container .footer_form .footer_button a {
+    width: 170px; } }
